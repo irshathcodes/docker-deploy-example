@@ -1,8 +1,8 @@
 ```
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ```
-open http://localhost:3000
+curl http://localhost:8000
 ```
