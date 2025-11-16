@@ -29,7 +29,7 @@ jobs:
               context: ".",
               file: "./Dockerfile",
               push: true,
-              tags: "${{ secrets.IMAGE_NAME }}:latest",
+              tags: "${{ env.IMAGE_NAME }}:latest",
             },
         },
       ]
