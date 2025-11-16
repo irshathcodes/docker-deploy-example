@@ -4,7 +4,10 @@ import { Hono } from "hono";
 const app = new Hono();
 
 app.get("/", (c) => {
-  return c.json({ message: `Hello Hono ,Current time: ${Date.now()}` });
+  return c.json({
+    message: `Hello World!
+    Current time: ${Date.now()}`,
+  });
 });
 
 serve(
